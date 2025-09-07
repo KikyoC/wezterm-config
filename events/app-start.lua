@@ -12,7 +12,7 @@ config.setup = function()
 		local pane = tabs[1]:active_pane()
 		local right_pane = pane:split{
 			direction = 'Right', 
-			size = 0.3,
+			size = 0.1,
 		}
 		local bottom_pane = right_pane:split{
 			direction = 'Bottom',
